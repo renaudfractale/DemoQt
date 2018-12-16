@@ -41,7 +41,7 @@ MainWindow::MainWindow(QWidget *parent)
     QObject::connect(ButtonAdd,SIGNAL(clicked(bool)),this,SLOT(Add()));
     QObject::connect(ButtonRemove,SIGNAL(clicked(bool)),this,SLOT(Remove()));
     QObject::connect(ButtonMulty,SIGNAL(clicked(bool)),this,SLOT(Multy()));
-    QObject::connect(ButtonDiv,SIGNAL(clicked(bool)),this,SLOT(Div()));
+    QObject::connect(ButtonDiv,SIGNAL(clicked(bool)),this,SLOT(Div  ()));
 
 
 }
